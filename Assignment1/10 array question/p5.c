@@ -19,7 +19,7 @@ int main()
     {
     for(i=0;i<r;i++)
     {
-        for(k=0;k<r-1;k++)
+        for(k=0;k<r-i-1;k++)
         {
             if(a[k][j]>a[k+1][j])
             {
