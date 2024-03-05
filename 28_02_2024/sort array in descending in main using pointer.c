@@ -23,7 +23,7 @@ int main()
  {
   for(j=0;j<(n-i-1);j++)
   {
-   if(*(p+j)>*(p+j+1))
+   if(*(p+j)<*(p+j+1))
    {
     int temp = *(p+j);
     *(p+j) = *(p+j+1);
