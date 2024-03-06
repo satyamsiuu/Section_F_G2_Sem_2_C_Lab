@@ -43,7 +43,7 @@ void pallindrome(char *a,char *b,int l1,int l2)
  //Checking if first string is pallindrome or not
  for(int i=0;i<l1-1;i++)
  {
-  if((a+i)!=(a+l1-2-i))
+  if(*(a+i)!=*(a+l1-2-i))
   {
    f1++;
    break;
@@ -59,7 +59,7 @@ void pallindrome(char *a,char *b,int l1,int l2)
  //Checking if second string is pallindrome or not
  for(int i=0;i<l2-1;i++)
  {
-  if((b+i)!=(b+l2-2-i))
+  if(*(b+i)!=*(b+l2-2-i))
   {
    f2++;
    break;
