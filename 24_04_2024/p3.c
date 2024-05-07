@@ -10,7 +10,7 @@ double radius;
 int main()
 {
 c *p;
-unsigned n,i;
+unsigned int n,i;
 double area,perimeter;
 printf("Enter number of records to be entered: ");
 scanf("%d",&n);
