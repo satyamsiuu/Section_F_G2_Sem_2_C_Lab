@@ -11,7 +11,7 @@ float totalmarks;
 int main()
 {
 st *p;
-unsigned n,i;
+unsigned int n,i;
 float average=0;
 printf("Enter number of records to be entered: ");
 scanf("%d",&n);
